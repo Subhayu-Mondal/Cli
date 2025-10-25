@@ -331,7 +331,7 @@ void centimetersToInches()
 void feetToMeters()
 {
 	float feet;
-	printf("Entetr Length in Feet:");
+	printf("Enter Length in Feet:");
 	scanf("%f", &feet);
 	float meters = feet * 0.3048;
 	printf("%.2f Feet = %.2f Meters", feet, meters);
